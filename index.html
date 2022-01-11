@@ -3,34 +3,79 @@
 <head>
     <title>Nirbhay's Persnol website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
     <section id="app">
         <h1>Apps</h1>
         <div class="line"></div>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/96uE34ZXjn2emA7TANhxaUfwPnF2a84QD3X6hYVtpQM/embed"></iframe>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/fhhp8lmyhb5ETwgJU8pYQWn9phq4pgDEVOMYEUT8TtM/embed"></iframe>
     </section>
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/flappy/Zgfo5W_edzi9QeQ80E5uDmzenUL0P5Dvq73osDPbR2E" target="_blank">
-            <img src="placeholder.jpg">
+        <h2>Click on the Games to explore</h2>
+        <h5>These games are built in code.org,Click on the games to play</h5>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                                <a href="https://studio.code.org/projects/flappy/Zgfo5W_edzi9QeQ80E5uDmzenUL0P5Dvq73osDPbR2E" target="_blank">
+            <img src="placeholder.jpg" class="img-responsive">
         </a>
-        <a href="https://studio.code.org/projects/playlab/D1kvRBwQuL6zv92R27E21i1IgIbxTwLEj95r-hFLgm0" target="_blank">
-            <img src="thumbnail.png">
+                        <div class="carousel-content">
+                            <p>Flappy Bird</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                                        <center>
+                                <a href="https://studio.code.org/projects/playlab/D1kvRBwQuL6zv92R27E21i1IgIbxTwLEj95r-hFLgm0" target="_blank">
+            <img src="thumbnail.png" class="img-responsive">
         </a>
-    </section>
-    <section id="chatbot">
-        <h1>Chatbot</h1>
-        <div class="line"></div>
-        <iframe
+                        <div class="carousel-content">
+                            <p>Maze Runner Pro</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        <h2>My chatbots</h2>
+        <h5>These chatbots are built in google dialogflow</h5>
+        <div id="myCarouse2" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <iframe
     allow="microphone;"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/8140c397-a583-4566-a6b3-a17950e135f3">
 </iframe>
-    </section>
+                        <div class="carousel-content">
+                            <p>Enstien bot</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                                        <center>
+                                            <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/78109160-53ce-4774-a05b-3ad7cd80c642">
+</iframe>
+                        <div class="carousel-content">
+                            <p>Covid19 bot</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarouse2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarouse2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </div>
 </body>
 </html>
